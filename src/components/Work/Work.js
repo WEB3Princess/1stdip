@@ -9,21 +9,21 @@ class Work extends Component {
         workData: [
             {
               "id": 1,
-              "icon": "icons icon-wallet text-effect",
-              "title": "Create NFT Collections",
+              "icon":  "icons icon-grid text-effect" ,
+              "title": "Create Whitelists for Minting",
               "text": "Create your NFT collections with 1st Dip in a few clicks"
             },
             {
               "id": 2,
-              "icon": "icons icon-grid text-effect",
-              "title": "Create Whitelists for Minting",
-              "text": "1st Dip allows you to easily whitelist minters for your collection"
+              "icon":  "icons icon-wallet text-effect",
+              "title": "Create NFT Collections",
+              "text": "1st Dip provides you with customized minting pages for your collections"
             },
             {
               "id": 3,
               "icon": "icons icon-drawer text-effect",
               "title": "Mint Hub",
-              "text": "1st Dip provides you with customized minting pages for your collections"
+              "text": "Create your NFT collections with 1st Dip in a few clicks"
             },
             {
               "id": 4,
