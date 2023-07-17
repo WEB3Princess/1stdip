@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const initData = {
     pre_heading: "1st Dip",
     heading: "Create Whitelists,Grow your Collection",
-    content: "Explore on the world's best NFT whitelist market place",
+    content: "Explore the first NFT whitelist market place",
     btn_1: "Explore",
     btn_2: "Create"
 }

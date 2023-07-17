@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 const initData = {
     pre_heading: "FAQ",
     heading: "Frequently Asked Questions",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit."
+    content: "If your question is not mentioned below, feel free to contact us through one of our social channels."
 }
 
 const data = [
@@ -11,46 +11,56 @@ const data = [
         id: "1",
         btnClass: "btn d-block text-left w-100 py-4",
         target: "#collapseOne",
-        quote: "How do I create an NetStorm account?",
+        quote: "What is FirstDip",
         contentId: "collapseOne",
         contentClass: "collapse show",
-        content: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text."
+        content: "Firstdip is a web3 company that is focused on providing projects with a unique approach to whitelisting that benefits both the project and its participants. Our entire process is managed through smart contracts, ensuring a secure and transparent allocation process."
     },
     {
         id: "2",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseTwo",
-        quote: "Where can I see transaction details?",
+        quote: "What is a whitelist allocation?",
         contentId: "collapseTwo",
         contentClass: "collapse",
-        content: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        content: "A whitelist allocation is a process by which a project team pre-approves a group of individuals to participate in a project, typically through an initial coin offering (ICO) or other token sale. This helps to ensure that those who are committed to the project will actually participate."
     },
     {
         id: "3",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseThree",
-        quote: "How do royalties work on NetStorm?",
+        quote: "How does Firstdip benefit projects?",
         contentId: "collapseThree",
         contentClass: "collapse",
-        content: "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        content: "Our whitelisting system offers increased visibility and the assurance that those who commit to participate will follow through. By requiring a 20% downpayment from participants, we ensure that those who are whitelisted are serious about their commitment and will actually mint. Additionally, we offer projects the option to create a whitelist and have us handle the entire process from creating the whitelist to the actual mint and minting website."
     },
     {
         id: "4",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseFour",
-        quote: "How do I list an NFT to sell?",
+        quote: "How does Firstdip benefit participants?",
         contentId: "collapseFour",
         contentClass: "collapse",
-        content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        content: "Our whitelist allocation system offers the opportunity to mint with confidence, knowing that they are guaranteed a spot in the project. Participants are also free to sell their allocation if they wish to do so, providing even greater flexibility and opportunity."
     },
     {
         id: "5",
         btnClass: "btn d-block text-left w-100 collapsed py-4",
         target: "#collapseFive",
-        quote: "How do I create an NFT?",
+        quote: "How can I participate in Firstdip whitelisting?",
         contentId: "collapseFive",
         contentClass: "collapse",
-        content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+        content: "To participate in Firstdip whitelisting, you can follow our official channels, including our website and Discord server, where we will announce upcoming projects that are utilizing our allocation system."
+    },
+    {
+        id: "6",
+        btnClass: "btn d-block text-left w-100 collapsed py-4",
+        target: "#collapseSix",
+        quote: "What chains do we support? ?",
+        contentId: "collapseSix",
+        contentClass: "collapse",
+        content: "Etherium, Optimism, Arbitrum, Polygon, Binance Smart Chain, Avalanche, Fantom, Kava, Canto, Celo, Palm, Cronos, Moonbeam."  
+
     }
 ]
 
